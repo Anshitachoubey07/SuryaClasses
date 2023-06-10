@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
+
+<link rel="icon" href="favicon (2).ico">
+<link rel="stylesheet" href="styles.css">
+
+    <script src="index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("hbcerdvzglaGEBHZz");
+        })();
+    </script>
+</head>
+
+<body>
+<div class="nav"></div>
+    <div class="navbar">
+        <div class="logo-img">
+          <img src="logo.png" alt="Logo" class="logo">
+        </div>
+  
+        <div class="navlist">
+          <div class="navitems"><a href="index.html">HOME</a></div>
+          <div class="navitems"> <a href="index.html">ABOUT US</a></div>
+          <div class="navitems"><a href="index.html">COURSES</a></div>
+          <div class="navitems"><a href="index.html">OUR ACHIEVEMENTS</a></div>
+          <div class="navitems"><a href="contact.html">CONTACT US</a></div>
+        </div>
+
+              <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="hamburger">
+<div class="topnav">
+  <a href="#home" class="active">MENU BAR</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <div class="navitems"><a href="index.html">HOME</a></div>
+    <div class="navitems"> <a href="index.html">ABOUT US</a></div>
+    <div class="navitems"><a href="index.html">COURSES</a></div>
+    <div class="navitems"><a href="index.html">OUR ACHIEVEMENTS</a></div>
+    <div class="navitems"><a href="contact.html">CONTACT US</a></div>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
+      </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 p-5 bg-primary text-white dabba">
+                    <h4>
+                        Your All Queries Will Be Answered Here
+                    </h4>
+                    <img src="https://static.uacdn.net/production/_next/static/images/home-illustration.svg?q=75&auto=format%2Ccompress&w=640"
+                        alt="" class="image-contact">
+        </div>
+        <div class="col-md-6 border-left py-3">
+            <h1>Contact form</h1>
+            <div class="form-group">
+                <h5 for="name">Name</h5>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" />
+            </div>
+            <div class="form-group">
+                <h5 for="email">Email</h5>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" />
+            </div>
+            <div class="form-group">
+                <h5 for="phone">Contact No.</h5>
+                <input type="number" class="form-control" id="phone" placeholder="Enter contact number" />
+            </div>
+            <div class="form-group">
+                <h5 for="message">Message</h5>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button class="buttono" onclick="sendMail()">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+<script src="index2.js"></script>
+</body>
+
+</html>
