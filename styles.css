@@ -325,6 +325,10 @@ a:hover {
     .hamburger{
         display: inline-block;
     }
+    
+    .navi{
+      font-weight: bold;
+    }
 
     .navlist {
         -moz-column-gap: 30px;
@@ -352,6 +356,7 @@ a:hover {
   .topnav #myLinks {
     display: none;
   }
+    
   
   /* Style navigation menu links */
   .topnav a {
