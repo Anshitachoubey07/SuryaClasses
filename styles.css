@@ -407,6 +407,18 @@ a:hover {
   .intro{
     font-size: 1.7rem;
   }
+    
+  .para-intro{
+    width: 100%;
+    padding-right: 10px;
+  }
+    
+.s-list{
+  color: #292e3a;
+  font-weight: bold;
+
+}
+    
   .section{
     display: block;
     text-align: center;
