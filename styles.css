@@ -162,10 +162,9 @@ a:hover {
     width: 60%;
     padding-left: 10%;
   }
-.s-list{
+  
+  .s-list{
   color: #292e3a;
-  font-weight: bold;
-
 }
 
 .courses{
@@ -327,12 +326,13 @@ a:hover {
         font-size: 1.7rem;
     }
 
-    .hamburger{
-        display: inline-block;
-    }
-    
+
     .navi{
       font-weight: bold;
+    }
+
+    .hamburger{
+        display: inline-block;
     }
 
     .navlist {
@@ -361,7 +361,6 @@ a:hover {
   .topnav #myLinks {
     display: none;
   }
-    
   
   /* Style navigation menu links */
   .topnav a {
@@ -412,20 +411,16 @@ a:hover {
   .intro{
     font-size: 1.7rem;
   }
-    
-  .para-intro{
-    width: 100%;
-    padding-right: 10px;
-  )
-    
   .section{
     display: block;
     text-align: center;
   }
 
-  /* .first{
-    text-align: center;
-  } */
+  .para-intro{
+    width: 100%;
+    padding-right: 10px;
+  }
+
 
   .c{
     float: none;
@@ -480,7 +475,7 @@ a:hover {
     width: 300px;
     height: 300px;
   }
-    
+
   .ac-img1{
     width: 400px;
     height: 400px;
@@ -501,6 +496,7 @@ a:hover {
     margin: auto;
     padding-left: 18%;
 }
+
   .footer{
     font-size: 1.3rem;
   }
