@@ -92,6 +92,11 @@ button{
   border-radius: 5px;
 }
 
+.home-hero__social-icon{
+  width: 40px;
+  height: 40px;
+}
+
 .home-hero__social-icon:hover{
   width: 60px;
   height: 60px;
@@ -412,6 +417,20 @@ a:hover {
     position: absolute;
     right: 0;
     top: 0;
+  }
+
+ .home-hero__socials {
+    width: 148px;
+}
+
+  .home-hero__social-icon{
+    width: 80px;
+    height: 80px;
+  }
+
+  .home-hero__social-icon:hover{
+    width: 80px;
+    height: 80px;
   }
   
   /* Add a grey background color on mouse-over */
