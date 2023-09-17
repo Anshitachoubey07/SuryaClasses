@@ -275,52 +275,18 @@ a:hover {
     margin: 20px;
 }
 
-/* adding transition */
-@keyframes sliding {
-0%, 30% {
-    visibility: hidden;
-  }
-  
-  100% {
-    visibility: visible;
-  }
-} 
-
-.ac-img{
-    display: inline-block;
-    border-radius: 100%;
-    box-shadow: 5px 5px #ef8712;
-    margin: 15px;
+.achievers{
+  padding-bottom: 35%;
+  padding-left: 35%;
+  z-index: -1;
 }
 
-.ac-img1{
-  animation: sliding;
-  animation-duration: 4s;
+.box{
+  width: 300px;
+  height: 75px;
+  position: static;
 }
 
-.ac-img2{
-  animation: sliding;
-  /* animation-delay: 3s; */
-  animation-duration: 8s;
-}
-
-.ac-img3{
-  animation: sliding;
-  /* animation-delay: 6s; */
-  animation-duration: 12s;
-}
-
-.ac-img4{
-  animation: sliding;
-  /* animation-delay: 9s; */
-  animation-duration: 16s;
-}
-
-.ac-img5{
-  animation: sliding;
-  /* animation-delay: 12s; */
-  animation-duration: 20s;
-}
 
 .footer{
     padding: 20px 0 0 20px;
@@ -480,9 +446,15 @@ a:hover {
   }
   
   /* Style the active link (or home/logo) */
-  .active {
+  .active-menu {
     background-color: #ffffff;
     color: white;
+  }
+
+      .achievers{
+    padding-bottom: 52%;
+    /* padding-left: 28%; */
+    z-index: -1;
   }
 
   .title-content{
