@@ -21,8 +21,10 @@ button{
 #title{
     background-color: #eaeaea;
     height: 100%;
-    position: static;
+    /* position: static; */
+    /* position: fixed; */
     padding-bottom: 80px;
+    z-index: 1;
 }
 
 .hamburger {
@@ -65,7 +67,6 @@ button{
     text-decoration: none;
 }
 
-
 .home-hero__socials {
   position: fixed;
   top: 40%;
@@ -102,7 +103,6 @@ button{
   width: 60px;
   height: 60px;
 }
-
 
 a {
     color: rgb(75, 70, 70);
@@ -267,6 +267,12 @@ a:hover {
 .strt{
     padding: 20px 25%;
     text-align: center;
+}
+
+.achievers{
+  padding-bottom: 35%;
+  padding-left: 35%;
+  z-index: -1;
 }
 
 .galleryContainer{
@@ -606,7 +612,7 @@ a:hover {
     top: 0;
   }
 
- .home-hero__socials {
+  .home-hero__socials {
     width: 148px;
 }
 
@@ -630,12 +636,6 @@ a:hover {
   .active-menu {
     background-color: #ffffff;
     color: white;
-  }
-
-      .achievers{
-    padding-bottom: 52%;
-    /* padding-left: 28%; */
-    z-index: -1;
   }
 
   .title-content{
@@ -717,14 +717,10 @@ a:hover {
     height: 350px;
   }
 
-  .ac-img{
-    width: 300px;
-    height: 300px;
-  }
-
-  .ac-img1{
-    width: 400px;
-    height: 400px;
+  .achievers{
+    padding-bottom: 52%;
+    /* padding-left: 28%; */
+    z-index: -1;
   }
 
   .rank{
@@ -746,5 +742,6 @@ a:hover {
   .footer{
     font-size: 1.3rem;
   }
+
 
 }  
