@@ -34,6 +34,7 @@ button{
     position: fixed;
     width: 100%;
     box-shadow: 5px 5px 5px #394867;
+    z-index: 7;
     /* padding-right: 550px; */
 }
 
