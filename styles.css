@@ -270,8 +270,8 @@ a:hover {
 }
 
 .galleryContainer{
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   max-width: 1000px;
   margin: auto;
   user-select: none;
@@ -371,7 +371,7 @@ a:hover {
   text-align: center;
   width: 100%;
   background: #00000047;
-  height: 100px;
+  height: 120px;
   line-height: 30px;
   overflow: hidden;
 }
